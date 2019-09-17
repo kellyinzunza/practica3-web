@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angry Birds</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    
+</head>
+<body>
+    <div class="fondo">
+
+        <div class="resortera">
+            <img src="/img/resortera.png" alt="Imagen Resortera">
+        </div>
+
+        <div class="pajaros container">
+            
+            <div>
+                <button class="btn btn-1" onclick="detalle(1)">Detalles</button>
+                <button id="pajaro1" onclick="volar(1)"  ></button>
+            </div>
+
+            
+            <div>
+                <button class="btn btn-2"  onclick="detalle(2)">Detalles</button>
+                <button id="pajaro2" onclick="volar(2)" ></button>
+            </div>
+            
+              
+            
+            <div>
+                <button class="btn btn-3"  onclick="detalle(3)">Detalles</button>
+                <button id="pajaro3" onclick="volar(3)" ></button>
+            </div>
+            
+        </div>
+
+        <div class="puerquitos container">
+            <img id="pig1" src="img/cerdo-1.png" onclick="detalle2(1)" alt="Imagen Pajaro negro">
+            <img id="pig2" src="img/cerdo-2.png" onclick="detalle2(2)" alt="Imagen Pajaro Blanco">
+            <img id="pig3" src="img/cerdo-3.png" onclick="detalle2(3)" alt="Imagen Pajaro Amarillo">
+        </div>
+
+
+
+    </div>
+    <script src='game.js'></script>
+</body>
+</html>

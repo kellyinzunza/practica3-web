@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*reset para REMS ;  62.5% = 10px de 16 px*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.container{
+    max-width: 1140px;     
+    margin: 0 auto;
+}
+
+
+.fondo{
+    background-image: url("../img/background.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 50rem;
+    margin:0;
+}
+
+.resortera img{
+    width: 5%;
+    position: relative;
+    margin: 20rem 25rem -36rem 20rem;
+}
+
+.puerquitos img{
+    width: 8rem;
+    height: 6rem;
+    position:absolute;
+}
+
+.pajaros{
+    display:inline;
+    
+}
+
+#pajaro1{
+    background: url("../img/pajaro-1.png") no-repeat;
+    background-size: 50px;
+    width: 6rem;
+    height: 6rem;
+    position:absolute;
+    border: none;
+}
+
+#pajaro2{
+    background: url("../img/pajaro-2.png") no-repeat;
+    background-size: 50px;
+    width: 6rem;
+    height: 6rem;
+    position:absolute;
+    border: none;
+}
+
+#pajaro3{
+    background: url("../img/pajaro-3.png") no-repeat;
+    background-size: 50px;
+    width: 6rem;
+    height: 6rem;
+    position:absolute;
+    border: none;
+}
+
+.btn{
+    border-radius: .7rem;
+    background-color: orange;
+    padding:1rem;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    margin:0;
+    border-color: black;
+}
+
+.btn-1{
+    right:-5rem;
+    top:35rem;
+}
+
+.btn-2{
+    right:-12.5rem;
+    top: 31.5rem;
+}
+
+.btn-3{
+    right:-20rem;
+    top: 28rem;
+}
